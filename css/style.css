@@ -1,0 +1,36 @@
+.jumbotron {
+    background-image: url("../assets/goats.jpg");
+    background-size: cover;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+b {
+    font-weight: bold;
+}
+
+.card-img-top {
+    width: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 768px){
+    .card-img-top {
+        height: 30vh;
+    }
+}
+
+@media screen and (min-width: 769px){
+    .carousel {
+        width: 100vh;
+    }
+    .card-img-top {
+        height: 25vh;
+    }
+}
